@@ -12,6 +12,6 @@ module aws_account {
 
   account_name = var.account_name
   aws_account_number = var.aws_account_number
-  aws_access_key = var.aws_account_number
+  aws_access_key = var.aws_access_key
   aws_secret_key = var.aws_secret_key
 }
